@@ -7,4 +7,4 @@ install:
 before_script:
   - cp contrib/env-sample .env
 script:
-  - pytest .
+  - pipenv run pytest .
