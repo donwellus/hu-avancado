@@ -4,5 +4,7 @@ python:
 install:
   - pip pipenv
   - pipenv install --dev
+before_script:
+  - cp contrib/env-sample .env
 script:
   - pytest .
