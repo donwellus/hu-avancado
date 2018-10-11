@@ -7,4 +7,5 @@ install:
 before_script:
   - cp contrib/env-sample .env
 script:
+  - pipenv run flake8 .
   - pipenv run pytest .
