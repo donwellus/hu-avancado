@@ -6,10 +6,12 @@ name = "pypi"
 [packages]
 python-decouple = "*"
 flask = "*"
+psycopg2 = "*"
+requests = "*"
 
 [dev-packages]
 pytest = "*"
-"flake8" = "*"
+flake8 = "*"
 pytest-cov = "*"
 
 [requires]
